@@ -1,0 +1,203 @@
+
+@font-face{
+	font-family:"Roboto";
+	src:url("../fonts/Roboto-Regular.ttf") format("truetype") ;
+	font-style: normal;
+	font-weight:normal; 
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	border:0;
+	box-sizing: border-box;
+}
+
+
+body {
+	background-image: url(../imagenes/fondo1.jpg);
+	background-size: cover;
+	font-family:"Roboto";
+}
+
+h1,h2,h3{
+	font-family: "itim", cursive;
+	text-align: center;
+	color: #EE3F8C;
+	margin: 10px auto;
+}
+
+p{
+	text-align: center;
+	margin: 10px auto;
+}
+
+.fila{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-evenly;
+}
+
+.caja{
+	background-color: rgba(0,0,0,0.5);
+	max-width: 28rem;
+	width: 100%;
+	min-height: 28rem;
+	max-height: 100%;
+	margin:30px 0;
+	color: white;
+	font-size:18px ;
+	text-align: center;
+	padding: 30px;
+}
+
+
+select{
+	background-color: pink;
+	min-height:2.5rem;
+	height: 100%;
+	border-radius: 5px;
+	margin: 10px;
+	box-shadow: 4px 3px 3px black;
+}
+
+option{
+	background-color: #FFEBEE;
+}
+
+#correcto{
+	background-color: #ffffff;
+	border-radius: 5px;
+	color: black;
+    line-height: 40px;
+    padding: 20px;
+    text-align: center;
+    max-width: 100%;
+    width: 100%;
+    max-height: 4rem;
+    min-height: 4rem;
+    height:100%;
+    visibility: hidden;
+    opacity: 0;
+}
+
+#correcto img{
+	width: 20px;
+}
+
+.icono1{
+	margin: 10px auto;
+}
+
+#acertijo{
+	background-color: #ffffff;
+	border-radius: 5px;
+	color: black;
+    line-height: 40px;
+    padding: 20px;
+    text-align: center;
+    max-width: 100%;
+    width: 100%;
+    max-height: 4rem;
+    min-height: 4rem;
+    height:100%;
+    visibility: hidden;
+    opacity: 0;
+}
+
+#acertijo img{
+   width: 20px;
+}
+
+.respuesta{
+	margin: 20px auto;
+}
+
+.respuesta1 input{
+	padding: 10px auto;
+	margin: 10px auto;
+} 
+
+#refran{
+	background-color: #ffffff;
+	border-radius: 5px;
+	color: black;
+    line-height: 40px;
+    padding: 20px;
+    text-align: center;
+    max-width: 100%;
+    width: 100%;
+    max-height: 4rem;
+    min-height: 4rem;
+    height:100%;
+    visibility: hidden;
+    opacity: 0;
+
+}
+
+#refran img{
+   width: 20px;
+}
+
+#prueba{
+	background-color: #ffffff;
+	border-radius: 5px;
+	color: black;
+    line-height: 40px;
+    padding: 20px;
+    text-align: center;
+    max-width: 100%;
+    width: 100%;
+    max-height: 4rem;
+    min-height: 4rem;
+    height:100%;
+	visibility: visible;
+	opacity: 1;
+	transition: all 3s ease;
+}
+
+#prueba img{
+   width: 20px;
+}
+
+#pista{
+background-color: rgba(217, 139, 160,0.6 );
+	border:2px solid #934270;
+	color: white;
+	margin: 20px;
+	padding: 10px;
+	
+}
+
+#ver{
+background-color: rgba(217, 139, 160,0.6 );
+	border:2px solid #934270;
+	color: white;
+	margin: 20px;
+	padding: 10px;
+}
+
+
+#solucion{
+	background-color: #ffffff;
+	border-radius: 5px;
+	color: black;
+    line-height: 40px;
+    padding: 20px;
+    text-align: center;
+    max-width: 100%;
+    width: 100%;
+    max-height: 4rem;
+    min-height: 4rem;
+    height:100%;
+	visibility: visible;
+	opacity: 1;
+	transition: 3 ease;
+}
+
+#solucion img{
+   width: 20px;
+}
+

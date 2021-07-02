@@ -1,0 +1,40 @@
+
+#cajaform{
+	margin: 30px;
+
+	width: 270px;
+	height: 350px;
+	color: #FFFFFF;
+	
+	
+}
+
+.top h4{
+
+	background-color: #5E6FE0;
+	text-align: center;
+	color: white;
+	padding: 10px;
+
+}
+
+.btn-primary {
+	color: black;
+	background-color: #B761BD;
+	border-color: #B761BD;
+	width: 270px;
+}
+
+.form-control {
+	border-color: black;
+	border-width: 2px;
+}
+.input-group-text{
+	border-color: black;
+    border-width: 2px;
+	background-color: white;
+}
+.bi {
+	color: grey;
+	font-size: 20px;
+}

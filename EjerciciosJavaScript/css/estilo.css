@@ -1,0 +1,102 @@
+*{
+margin:0;
+border:0;
+padding:0 ;
+}
+
+.caja2{
+	background-image: url(../imagenes/fondo1.jpg);
+	background-size:100% 100%;
+	 
+}
+
+.caja2 h1 {
+	text-align: center;
+	color: white;
+	margin-top: 20px;
+}
+
+.menuizq {
+ padding-top: 60px;
+}
+
+.menuizq img{
+ border-radius: 5px;
+ box-shadow: 5px 5px 5px #934270;
+}
+
+.cajabotones{
+	margin-top: 40px; 
+	padding-bottom: 20px;
+}
+
+.btn{
+	background-color: rgba(217, 139, 160,0.6 );
+	border:2px solid #934270;
+	color: white;
+	font-style: cursive;
+	font-weight: bold;
+	font-size:18px;
+
+}
+
+.btn:hover{
+background-color: #FFA07A;
+color: white;
+border:2px solid #F08080; 
+}
+
+.form-label {
+     text-align: center;
+	font-weight: bold;
+	font-size:18px;
+}
+
+.form-control{
+	border:2px solid #661244;
+}
+
+.form-select{
+	border:2px solid #661244;
+	font-weight: bold;
+  appearance: caret;
+
+	
+}
+
+.card-body{
+	 box-shadow: 5px 5px 7px #934270;
+}
+
+.form-select:focus {
+  border-color: rgba(217, 139, 160,0.6);
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem rgba(217, 139, 160,0.6);
+}
+
+.success {
+    border: 2px solid lime;
+    
+}
+ 
+.error {
+    border: 2px solid red;  
+}
+
+#feedback{
+	background-color: rgba(255,255,255, 0.5);
+	border-radius: 5px;
+	color: black;
+    line-height: 40px;
+    padding: 5px;
+    text-align: center;
+    max-width: 100%;
+    width: 100%;
+    font-size: 10px;
+    visibility: hidden;
+    opacity: 0;
+}
+
+input{
+	outline: none;
+}

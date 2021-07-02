@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Spicy+Rice&display=swap');
+@font-face{
+	font-family:"Comic Boys";
+	src:url("../fonts/Comic Boys.ttf") format("truetype");
+	font-style: normal;
+	font-weight:normal; 
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	border:0;
+	box-sizing: border-box;
+}
+body {
+	font-family:"Comic Boys";	
+}
+
+ h1{
+	color: #F3EAEA;
+	font-size: 80px;
+	margin: 10px 20px 20px 350px;
+	justify-content: space-between; 
+	padding-top: 10px;
+	padding-left: 100px;
+
+}
+
+.imghome{
+	width: 100px;
+	margin:50px 20px 80px 50px;
+}
+
+.botonizq{
+	width: 190px;
+	height: 80px;
+	margin-bottom: 50px;
+	text-align: center;
+	padding: 20px;
+	font-size:18px;
+	font-family:'Spicy Rice';
+	font-weight: lighter;
+	background:linear-gradient(rgba(119, 4, 233,0.8),rgba(119, 4, 233,0.3) );
+	border-radius: 5px;
+	border: none;
+}
+
+.mensaje p {
+	font-size: 38px;
+}
+
+.card{ /*poner esta caja hidden para el evento*/
+	background: linear-gradient(to right,rgba(229, 115, 115,0.6), rgba(229, 115, 115,0.2));
+	color: white;
+	border-radius: 20px;
+	border:2px solid rgb(119,4,233);
+	margin-left:260px;
+	margin-top: 10px;
+
+}
+
+.menuizq{
+	background-image: url(../imagenes/fondo1.jpg);
+	background-size: cover;
+}
+
+.cajacentro{
+		background-image: url(../imagenes/fondo3.jpg);
+	background-size: cover;
+}
+
+.form-select{
+	width: 10rem;
+	min-height: 8px;
+	border-radius:7px;
+	box-shadow: 5px 5px 5px black;
+	margin:10px 60px 20px 250px;
+	text-align-last: center;
+	font-size: 28px;
+	font-weight: bold;
+	display: inline-block;
+	
+}
+
+.icono1 {
+	width: 8rem;
+	margin-left: 520px;
+	margin-bottom: 20px;
+}
+
+#mensaje img{
+	width: 180px;
+	margin-left: 220px;	
+}
+
+.cajacentro img{
+ width: 90px;
+display: inline-flex;
+	flex-flow: wrap;
+	justify-content: space-evenly;
+	margin-left: 100px;
+}
+
+.cartas1{
+	display: inline-flex;
+	margin-left: 230px;
+	justify-content: space-between;
+}
+
+.botcarta{
+	margin-left: 250px;
+	margin-bottom: 10px;
+}
+
+.botcarta button{
+	margin-left: 60px;
+	width: 8rem;
+	font-size: 20px;
+	background: linear-gradient(to right,rgba(255, 255, 255,0.7), rgba(255, 255, 255,0.2));
+	color: #800080;
+	font-weight: bold;
+}
+
+.modal-content{
+	background-image: url(../imagenes/fondo4.jpg);
+	background-size: cover;
+	color: white;
+	text-align: center;
+	font-size: 40px;
+}
+.modal-title{	
+	margin-left: 80px;	
+}
+
+.btncerrar{
+  width: 7rem;
+  font-size:25px;
+}
+

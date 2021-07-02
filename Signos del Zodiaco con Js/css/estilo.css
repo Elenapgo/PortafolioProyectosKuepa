@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Spicy+Rice&display=swap');
+@font-face{
+	font-family:"Comic Boys";
+	src:url("../fonts/Comic Boys.ttf") format("truetype");
+	font-style: normal;
+	font-weight:normal; 
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	border:0;
+	box-sizing: border-box;
+}
+body {
+	background-image: url(../imagenes/fondo1.jpg);
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	font-family:"Comic Boys";	
+}
+
+ h1{
+	color: #F3EAEA;
+	font-size: 80px;
+	margin: 20px 20px 20px 320px;
+	justify-content: space-between; 
+	padding-top: 40px;
+	padding-left: 100px;
+
+}
+
+.principal{
+	/*margin: 30px auto;*/
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.fila{
+	padding: 30px;
+	margin: 40px auto;
+	display: flex;
+	justify-content: space-between;
+
+}
+
+.fila img{
+	width: 100px;
+}
+
+.btnindex{
+	width: 300px;
+	height: 80px;
+	padding-top: 15px;
+	text-align: center;
+	line-height: 55px;
+	font-size:30px;
+	font-family: 'Spicy Rice';
+	font-weight: lighter;
+	background:linear-gradient(rgba(255,255,255,0.4),rgba(119, 4, 233,0.6) ,rgba(33, 33, 33,0.8));
+	border-radius: 10px;
+
+}
+
+.body2{
+	background-image: url(../imagenes/fondo2.jpg);
+	background-size: 100% 100%;
+	background-attachment: fixed;
+}
+
+
+.icono1 input{
+	width: 100px;
+	margin:50px 20px 80px 50px;
+
+}
+
+.botonizq{
+	width: 190px;
+	height: 80px;
+	margin-bottom: 50px;
+	text-align: center;
+	padding: 20px;
+	font-size:18px;
+	font-family:'Spicy Rice';
+	font-weight: lighter;
+	background:linear-gradient(rgba(119, 4, 233,0.8),rgba(119, 4, 233,0.3) );
+	border-radius: 5px;
+	border: none;
+}
+
+.mensaje p {
+	font-size: 38px;
+}
+
+.card{
+	background-color: rgba(119, 4, 233,0.3);
+	color: white;
+	border-radius: 10px;
+	border:2px solid rgb(119,4,233);
+}
+
+.imghome{
+	width: 100px;
+	margin:50px 20px 80px 50px;
+}

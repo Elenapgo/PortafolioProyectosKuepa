@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es-Es">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/encuesta.css">
+	<title></title>
+</head>
+
+<body>
+
+
+<div id="hojavida">
+     <form name="encuesta" novalidate>
+         <h1> <img src="imagenes/cine.png" width="100px"> Encuesta </h1>
+ 
+    <div id="camponombre">
+ 	  <label for="nombres"> Escriba su nombre</label>
+      <input type="text" id="nombres" name="nombres">
+      <div id="feedback"></div>
+    </div>
+
+    <div>
+    	<label for="genero"> Género</label>
+        <input type="radio" name="genero" id="genero">Femenino
+        <input type="radio" name="genero" id="genero">Masculino
+    </div>
+
+    <div>
+    	<label for="pelicula">¿Si tuviera que escoger un solo género de peliculas cual sería?</label>
+        <input type="radio" name="pelicula" id="pelicula">Acción
+        <input type="radio" name="pelicula" id="pelicula">Drama
+        <input type="radio" name="pelicula" id="pelicula">Fantasia
+        <input type="radio" name="pelicula" id="pelicula">Animada
+    </div>
+
+     <div>
+    	<label for="pelicula">¿Qué plataforma le gusta para ver peliculas?</label>
+        <input type="radio" name="pelicula" id="pelicula">Netflix
+        <input type="radio" name="pelicula" id="pelicula">Amazon Prime Video 
+        <input type="radio" name="pelicula" id="pelicula">Disney Plus
+        <input type="radio" name="pelicula" id="pelicula">otro
+    </div>
+
+    <div>
+      <label for="descripcion">Escribe tu opinión acerca de</label>
+      <textarea rows="3"></textarea>
+    </div>
+
+    <div>
+    <label for="horario">¿Qué horario es su preferido para ver peliculas?</label> 
+     <select name="horario" id="horario"> 
+       <option value="0" selected="">Seleccione una opción</option>
+       <option value="1">Mañana 8 am a 12 am</option>
+       <option value="2">Tarde de 1 pm a 6 pm</option>
+       <option value="3">Noche de 6 pm a 11 pm</option>
+       <option value="4">Le es indiferente</option>
+    </select>
+    </div>
+    
+    <div>
+      <label for="descripcion">Describe tu pelicula favorita</label>
+      <textarea rows="3"></textarea>
+    </div>
+
+    <div>
+    	<label for="telefono"> Número telefónico de contacto:</label>
+        <input type="text" id="telefono" name="telefono" >
+    </div>
+
+    <div>
+    	<label for="correo"> Correo electrónico de contacto</label>
+        <input type="text" id="correo" name="correo" size="80" maxlength="80" placeholder="usuario@dominio.com">
+    </div>
+    <input type="submit" value="Enviar" />
+
+ </form>
+</div>
+</body>
+</html>

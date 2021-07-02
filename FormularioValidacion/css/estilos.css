@@ -1,0 +1,42 @@
+
+.cajam h1{
+
+	text-align: center;
+	padding-top: 20px;
+}
+
+.card{
+	margin: 100px auto;
+	margin-top: 30px;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	min-width: 0;
+	word-wrap: break-word;
+  background-color: rgba(225,225,225,0.7);
+	background-clip: border-box;
+	border: 1px solid rgba(0, 0, 0, 0.125);
+	border-radius: 0.25rem;
+	box-shadow: 3px 3px 8px #000;
+  text-align: center;
+  font-weight: 500;
+
+}
+
+.card-body {
+  flex: 1 1 auto;
+  padding: 1rem 1rem;
+}
+
+.success {
+    border: 3px solid lime;
+}
+ 
+.error {
+    border: 3px solid red;
+
+}
+
+input,select{
+	outline: none;
+}

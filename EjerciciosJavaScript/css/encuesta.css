@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Chewy&family=Raleway:ital,wght@0,700;1,300;1,400&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	border:0;
+	list-style: none;
+	box-sizing: border-box;	
+}
+
+
+body{
+	background-image: url('../imagenes/fondo4.jpg');
+	background-size: cover;
+	font-family: 'Raleway', sans-serif;
+}
+
+
+#hojavida{
+	max-width: 800px;
+	width:100%;
+	margin: 20px auto;
+	background-color: rgba(255, 255, 255, 0.8);
+	box-shadow: 3px 3px 5px #000000;
+	padding: 30px;
+
+}
+
+#hojavida label{
+	width: 40%;
+	display: inline-block;
+	margin-bottom: 30px;
+}
+
+#hojavida input[type=text], input[type=number], input[type=email], select,textarea{
+     width: 55%;
+     vertical-align: middle;
+     padding: 5px;
+     border-radius: 5px;
+     font-size: 16px;
+     border:1px solid #000000;
+     margin: 8px 0;
+     resize: none; 
+}
+
+#hojavida input[type=text]:focus, input[type=number]:focus, input[type=email]:focus, select:focus, textarea:focus {
+          	box-shadow: 3px 3px 5px ;
+          }
+
+#hojavida input[type=submit]{
+	width: 140px;
+	margin: 10px;
+	padding: 10px;
+	background: linear-gradient(#FFFFFF, #FFA07A );
+	border-radius: 5px;
+	border:4px solid #DA8EF0 ;
+	color: #000000;
+	font-weight:bold;
+}
+
+#hojavida input[type=submit]:hover{
+	background: linear-gradient(#0a0a0a, #000000);
+	box-shadow: 0 0 20px #000000;
+}
+

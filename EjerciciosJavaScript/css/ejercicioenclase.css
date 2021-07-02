@@ -1,0 +1,54 @@
+*{
+	margin: 0;
+	padding: 0;
+	border:0;
+	box-sizing: border-box;
+}
+@font-face{
+    font-family:"Roboto";
+    src:url("../fonts/Roboto-Regular.ttf") format("truetype") ;
+    font-style: normal;
+    font-weight:normal; 
+}
+
+body{
+    background-image: url(../imagenes/fondo4.jpg);
+    background-size: cover;
+    font-family:"Roboto";
+}
+
+.success {
+    border: 2px solid lime;
+    
+}
+ 
+.error {
+    border: 2px solid red;  
+}
+
+#feedback{
+	background-color: rgba(255,255,255, 0.5);
+	border-radius: 5px;
+	color: black;
+    line-height: 40px;
+    padding: 5px;
+    text-align: center;
+    max-width: 100%;
+    width: 100%;
+    font-size: 10px;
+    visibility: hidden;
+    opacity: 0;
+}
+
+label{
+    margin-top: 20px;
+   margin-left: 50px;
+}
+
+input{
+    margin-top: 20px;
+}
+
+.card{
+    background-color: #E88F8F;
+}

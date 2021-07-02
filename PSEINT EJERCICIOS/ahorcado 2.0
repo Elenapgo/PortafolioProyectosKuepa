@@ -1,0 +1,69 @@
+Algoritmo ahorcado 
+	repetir 
+	res=1
+	
+Mientras res=1 hacer 
+	Escribir " Escoger escribir por favor el nivel"
+	escribir "Nivel 1"
+	escribir "Nivel 2"
+	Escribir "Nivel 3"
+	leer nivel 
+	Segun nivel Hacer
+		1: escribir "Nivel 1 de 4 a 6 letras usted tiene 6 intentos para adivinar la palabra"
+			Repetir
+				i<-i+1
+				Escribir "La palabra es f _ _ S _"
+				leer palabra 
+				si palabra<>"fresa" o i=6 Entonces
+					escribir "Esta no es la palabra correcta"
+				SiNo 
+					si palabra="fresa" o palabra="FRESA" o palabra="Fresa" 
+						Escribir "Correcto la palabra es FRESA"
+					FinSi
+				FinSi
+				
+			Hasta Que i=6 o palabra="fresa" o palabra="Fresa" o palabra="FRESA"
+			
+		2:escribir "Nivel 2 intermedio de 7 a 9 letras usted tiene 9 intentos para adivinar la palabra"
+			
+			Repetir
+				i<-i+1
+				Escribir "La palabra es H _ _ _ P_ _ _ S"
+				leer palabra
+				si palabra<>"huespedes" o i=9 Entonces
+					escribir "Esta no es la palabra correcta"
+				SiNo
+					si palabra="huespedes" o palabra="Huespedes" o palabra="HUESPEDES"
+						Escribir "Correcto la palabra es HUESPEDES"
+					FinSi
+				FinSi
+				
+			Hasta Que i=9 o palabra="huespedes" o palabra="HUESPEDES" o palabra="Huespedes"
+			
+	    3:escribir "Nivel 3 avanzado usted tiene 10 intentos para adivinar la palabra" 
+			
+			Repetir
+				i=i+1
+				Escribir "La palabra es k _ _ _ m _ _ _ _ s"
+				leer palabra
+				si palabra<>"kilometros" o i=10 Entonces
+					escribir "Esta no es la palabra correcta"
+				sino 
+					si palabra="kilometros" o palabra="Kilometros" o palabra="KILOMETROS"
+						Escribir "Correcto la palabra es kilometros"
+					FinSi
+				FinSi
+			Hasta Que i=10 o palabra="kilometros" o palabra="KILOMETROS" o palabra="Kilometros" 
+			
+		De Otro Modo:
+			Escribir "Ingrese un nivel valido"
+	Fin Segun
+	Escribir "¿Desea seguir jugando?"
+	Escribir " SI digite 1"
+	Escribir " NO digite 2"
+	leer res 
+	Limpiar Pantalla
+FinMientras
+Hasta Que res=2
+	
+FinAlgoritmo
